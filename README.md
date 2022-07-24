@@ -4,7 +4,7 @@ Hey! I built this project to help narrow down my search for a Jeep because well 
 - Axios
 - React Router Dom
 - React Loader Spinner
-- Semantic Ui React
+- Semantic UI React
 
 
 You can:
@@ -15,6 +15,9 @@ You can:
 Future features
 - An indicatior that the Jeep has been saved successfully to favorites
 - Tests
+
+Database can be found at:
+https://github.com/Mykolb/Jeep-Prices-Repo
 
 Thanks for stopping by!
 
