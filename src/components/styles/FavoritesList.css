@@ -1,0 +1,83 @@
+#fave-warning {
+    margin: 5% auto;
+    text-align: center;
+    width: 50%;
+}
+#search-err {
+    margin: 2% auto;
+    width: 50%;
+}
+
+.search-container {
+    text-align: center;
+}
+
+#saved-jeeps {
+    color: var(--color);
+    margin: unset;
+}
+
+#trash-icon {
+    cursor: pointer;
+}
+
+.ui.black.centered.card.fave-card {
+    height: auto;
+    width: auto;
+    color:  var(--text-primary);
+    background-color: var(--card-background);
+
+}
+
+.fave-card-header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+
+}
+
+.fave-card-title {
+    padding: 1%;
+    font-weight: 800;
+    color:  var(--text-secondary);
+}
+
+.fave-dollar-popup {
+    margin-left: 40px;
+}
+
+.fave-trash-popup {
+    margin-left: 20px;
+}
+
+#trash-icon:hover {
+    color: var(--color);
+}
+
+.fave-card-description {
+    padding: 0 10px;
+    white-space: pre;
+    word-break: break-all;
+    font-size: .60rem;
+    color: var(--text-primary);
+    background-color: var(--card-background-two);
+}
+
+    @media (max-width: 414px) {
+        .ui.segment.site-one-details-container {
+             white-space:break-spaces;
+         }
+        .ui.vertical.divider:before, 
+        .ui.vertical.divider:after{
+           display: none;
+        }
+        .ui.vertical.divider {
+            top: 0;
+        }
+        .ui.raised.card.site-one-card {
+            box-shadow: none;
+        }
+        img.ui.large.image {
+            display: none;
+        }
+     }

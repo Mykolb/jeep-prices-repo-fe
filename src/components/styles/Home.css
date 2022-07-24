@@ -1,0 +1,5 @@
+#home-msg-container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: var(--background);
+}
