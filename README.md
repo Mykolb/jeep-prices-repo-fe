@@ -10,7 +10,7 @@ Hey! I built this project to help narrow down my search for a Jeep because well 
 You can:
 - Add & remove Jeeps from the favorites list
 - Search favorites by title and vehicle information
-- The Dashboard will inherit the color scheme of system preferences. But may require a refresh & the clearing out local storage since the values aren't saved in the database at this time. 
+- The Dashboard will inherit the color scheme of system preferences. But may require a refresh & the clearing of local storage since the values aren't saved in the database at this time. 
 
 #Future features
 - An indicatior that the Jeep has been saved successfully to favorites
