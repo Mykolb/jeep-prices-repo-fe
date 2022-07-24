@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import ComponentContainer from "./components/Container/Container/Container";
+import React, { useState, useCallback } from 'react';
+import { Container} from 'semantic-ui-react';
+import './components/styles/App.css';
+import useLocalStorage from "./components/Hooks/UseLocalStorage";
 
 function App() {
+//checking if dark mode os enabled, adjusting color scheme, + storing val in local storage
+  const isDark = window.matchMedia("(prefers-color-scheme:dark)").matches
+  const [theme, setTheme] = useLocalStorage('theme', isDark ? 'dark' : 'light');
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container data-theme={theme} id="app-container">
+      <ComponentContainer />
+    </Container>
   );
 }
 
 export default App;
+
+
+

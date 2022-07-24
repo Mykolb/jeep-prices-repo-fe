@@ -1,0 +1,92 @@
+.site-one-container {
+    width: 100%;
+    background-color: var(--card-background);
+}
+
+.ui.container.site-container-one .ui.piled.segment:before, 
+.ui.container.site-container-one .ui.piled.segment:after  {
+    background-color: var(--card-background) ;
+}
+.ui.container.site-container-one .ui.piled.segment {
+    background-color: var(--card-background-two) ;
+}
+
+.ui.card.site-one-card {
+    width: 100%;
+    padding: 20px;
+    position:relative;
+    background-color: var(--card-background);
+}
+
+.ui.card.site-one-card .ui.raised.segment {
+    background-color: var(--card-background-three);
+}
+
+.site-one-button-container {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.site-one-button-container h3 {
+    margin: unset;
+    color: var(--text-secondary);
+}
+
+h3.ui.header {
+    color: var(--text-secondary);
+}
+
+.ui.vertical.divider:after, 
+.ui.vertical.divider:before {
+    left: 45%;
+}
+
+i.heart.outline.save-to-favorites.icon {
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: var(--border);
+}
+
+i.heart.outline.save-to-favorites.icon:hover {
+    cursor: pointer;
+    color: var(--color);
+    
+}
+
+.ui.segment.site-one-details-container {
+    white-space: pre;
+    background-color: var(--card-background-two);
+    color: var(--text-primary);
+}
+
+#site-one-price-outer-container.ui.segment {
+    background-color: var(--card-background-two);
+}
+
+.site-one-price-container .ui.hidden.content {
+    color: var(--text-primary);
+}
+
+.site-one-jeep-title {
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.jeep-img {
+    width: 100%;
+}
+
+
+@media (max-width: 414px) {
+    .ui.container.site-container-one {
+        margin-left: .5em !important;
+        margin-right: .5em !important;
+    }
+    .ui.grid>.column:not(.row) {
+        padding: 0px;
+    }
+    .pushable>.pusher {
+        overflow: visible;
+    }
+}
+

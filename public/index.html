@@ -24,6 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +40,31 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- <script>
+      // If `prefers-color-scheme` is not supported, fall back to light mode.
+      // In this case, light.css will be downloaded with `highest` priority.
+      if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+        document.documentElement.style.display = 'none';
+        document.head.insertAdjacentHTML(
+          'beforeend',
+          '<link rel="stylesheet" href="/" onload="document.documentElement.style.display = \'\'">',
+        );
+      }
+    </script> -->
+    <!--
+      Conditionally either load the light or the dark stylesheet. The matching file
+      will be downloaded with `highest`, the non-matching file with `lowest`
+      priority. If the browser doesn't support `prefers-color-scheme`, the media
+      query is unknown and the files are downloaded with `lowest` priority (but
+      above I already force `highest` priority for my default light experience).
+    -->
+    <!-- <link rel="stylesheet" href="../src/components//styles/Themes/DarkMode.css" media="(prefers-color-scheme: dark)" />
+    <link
+      rel="stylesheet"
+      href="../src/components//styles/Themes/LightMode.css"
+      media="(prefers-color-scheme: light)"
+    /> -->
+    
   </body>
 </html>

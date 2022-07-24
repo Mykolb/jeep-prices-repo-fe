@@ -1,0 +1,15 @@
+.ui.vertical.labeled.icon.ui.scale.down.left.thin.visible.sidebar.menu,
+.ui.vertical.labeled.icon.ui.scale.down.left.thin.sidebar.menu {
+    background-color: var(--sidebar-background);
+}
+
+#sidebar-wrap-container {
+    background-color: var(--background);
+}
+
+.nav-icons {
+    color: var(--text-primary);
+    box-shadow: var(--accent-two);
+}
+
+
