@@ -12,7 +12,7 @@ You can:
 - Search favorites by title and vehicle information
 - The Dashboard will inherit the color scheme of system preferences. But may require a refresh & the clearing of local storage since the values aren't saved in the database at this time. 
 
-#Future features
+Future features
 - An indicatior that the Jeep has been saved successfully to favorites
 - Tests
 
@@ -34,5 +34,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-Hye
