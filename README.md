@@ -19,7 +19,7 @@ Future features
 Database can be found at:
 https://github.com/Mykolb/Jeep-Prices-Repo
 
-Thanks for stopping by!
+Thanks for stopping by! (edit)
 
 
 ## Getting Started with Create React App
