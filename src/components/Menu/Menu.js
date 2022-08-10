@@ -8,7 +8,6 @@ import '../styles/Menu.css';
 
 
 import {
-  Container,
   Header,
   Segment,
   Icon,
